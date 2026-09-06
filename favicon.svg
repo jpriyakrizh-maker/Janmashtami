@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="featherGrad" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="40%" stop-color="#0369a1" />
+      <stop offset="70%" stop-color="#6b21a8" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#051b33" />
+      <stop offset="45%" stop-color="#0284c7" />
+      <stop offset="75%" stop-color="#10b981" />
+      <stop offset="90%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </radialGradient>
+  </defs>
+  <!-- Peacock feather background oval -->
+  <path d="M50 8 C30 25, 22 50, 48 90 C78 50, 70 25, 50 8 Z" fill="url(#featherGrad)" />
+  <!-- Feather eye outer -->
+  <ellipse cx="50" cy="38" rx="16" ry="22" fill="url(#eyeGrad)" stroke="#fcd34d" stroke-width="2" />
+  <!-- Feather eye inner pupil -->
+  <ellipse cx="50" cy="36" rx="8" ry="12" fill="#09101f" />
+  <circle cx="50" cy="33" r="3" fill="#38bdf8" />
+  <!-- Flute across feather -->
+  <g transform="rotate(-30 50 65)">
+    <rect x="15" y="60" width="70" height="7" rx="3.5" fill="#f59e0b" stroke="#78350f" stroke-width="1" />
+    <circle cx="28" cy="63.5" r="1.5" fill="#78350f" />
+    <circle cx="38" cy="63.5" r="1.5" fill="#78350f" />
+    <circle cx="48" cy="63.5" r="1.5" fill="#78350f" />
+    <circle cx="58" cy="63.5" r="1.5" fill="#78350f" />
+    <circle cx="68" cy="63.5" r="1.5" fill="#78350f" />
+  </g>
+</svg>
